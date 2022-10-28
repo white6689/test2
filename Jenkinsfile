@@ -10,7 +10,7 @@ pipeline {
       steps {
         sh  '''
 	docker build -t 192.168.8.100:5000/testweb:blue .
-	docekr push 192.168.8.100:5000/testweb:blue
+	docker push 192.168.8.100:5000/testweb:blue
 	'''
       }
     }
